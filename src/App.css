@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+.App{
+  background-image: url('https://img.freepik.com/free-photo/blue-office-stationery-with-copy-space_23-2148475340.jpg?w=740&t=st=1697711856~exp=1697712456~hmac=2713a6d8f6a6e439b4a1f4a438170162179a7263857d2aa68442e0a98eec75f2');
+  height: 707px;
+  background-size: cover;
+  font-family: 'Young Serif', serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.head h1{
+  text-align: center;
+  padding-top: 90px;
+}
+.main{
+  width: 900px;
+  height: 600px;
+}
+
+.btn1{
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #007ED0;
+  border: 1px;
+}
+
+.btn2{
+  color: #007ED0;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #007ED0;
+}
+.btn2:hover{
+  background-color: #007ED0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.result{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  width: 900px;
+  height: 100px;
+  background-color: #5ec3ee2a;
+  border-radius: 20px;
+}
+.result p{
+  font-size: xx-large;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.content{
+  margin: 80px 100px;
+  justify-content: center;
+  font-size: 12px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media screen and (max-width:300px){
+  .fullcontent{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .main{
+    width: 300px;
   }
+  .form{
+    flex-direction: column;
+    margin: 30px;
+  }
+  .form .TextField{
+    margin-bottom: 30px;
+  }
+  .result{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 290px;
+    height: 150px;
+    align-items: center;
+  }
+  .result p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .content{
+    margin: 40px 30px;
+    justify-content: center;
+    font-size: 14px;
+  }
+  
+}
+
+@media screen and (max-width:600px){
+  .fullcontent{
+    flex-direction: column;
+  }
+  .main{
+    width: 600px;
+  }
+  .form{
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+  }
+  .form .TextField{
+    margin-bottom: 30px;
+    width: 300px;
+   
+  }
+  .result{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 590px;
+    height: 150px;
+    align-items: center;
+  }
+  .result p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .content{
+    margin: 40px 30px;
+    justify-content: center;
+    font-size: 11px;
+  }
+
+  .App{
+    height: 1007px;
+    width: 800px;
+  }
+  
+ 
+}
+
+@media screen and (max-width:800px){
+  .fullcontent{
+    flex-direction: column;
+  }
+  .main{
+    width: 800px;
+  }
+  .form{
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+  }
+  .form .TextField{
+    margin-bottom: 30px;
+    width: 300px;
+   
+  }
+  .result{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 790px;
+    height: 150px;
+    align-items: center;
+  }
+  .result p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .content{
+    margin: 40px 30px;
+    justify-content: center;
+    font-size: 11px;
+  }
+ 
+}
+@media screen and (max-width:1110px){
+  
 }
